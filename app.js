@@ -20,7 +20,3 @@ mongoose.connect('mongodb://localhost:27017/', () => {
     console.log('successfully');
 }
 );
-
-app.listen(process.env.PORT, () => {
-    console.log('Kết nối thành công, cổng' + process.env.PORT)
-})
