@@ -92,7 +92,7 @@ const AdminPage = {
                         const data: Product[] = res.data
                         reRender('app', AdminPage);
                         if (data) {
-                            console.log('delete thành công');
+                            console.log('delete thành công!');
                         }
                     }
                 }
