@@ -88,6 +88,49 @@ const EditProductPage = {
         </div>
         `;
 	},
+	afterRender: async (id) => {
+		const editProductBtn = document.querySelector('#edit-product-btn');
+		const inputFile = document.querySelector('#input-file');
+		const previewImage = document.querySelector('#preview-image');
+
+		editProductBtn?.addEventListener('click', async () => {
+			const product = {
+				id: id,
+				name: document.querySelector('#name')?.value,
+				originalPrice: document.querySelector('#originalPrice')?.value,
+				imageUrl: previewImage?.src,
+				saleOffPrice: document.querySelector('#saleOffPrice')?.value,
+				category: document.querySelector('#category')?.value,
+				feature: document.querySelector('#feature')?.value,
+				description: document.querySelector('#description')?.value,
+				shortDescription:
+					document.querySelector('#shortDescription')?.value,
+			};
+
+			try {
+				const data = await update(product);
+				alert('Cập nhật thành công');
+				location.href = '/admin';
+			} catch (err) {
+				console.log(err);
+			}
+		});
+
+		inputFile?.addEventListener('change', async (e) => {
+			const file = e.target.files[0];
+			const reader = new FileReader();
+			reader.readAsDataURL(file);
+			reader.onloadend = async () => {
+				try {
+					const res = await upload(reader.result);
+					const data = res.data;
+					previewImage.src = data.url;
+				} catch (err) {
+					console.log(err);
+				}
+			};
+		});
+	},
 };
 
 export default EditProductPage;
