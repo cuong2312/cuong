@@ -77,7 +77,46 @@ const AdminPage = {
             </div>
         </div>
         `
-    }
+    },
+    afterRender() {
+        const btns = document.querySelectorAll('table .btn'); // nodeList=[btn]
+        console.log('btns', btns);
+        for (let btn of btns) {
+            // lấy thuộc tính data-id của button
+            const id = btn.dataset.id;
+            btn.addEventListener('click', async function () {
+                if (btn.classList.contains('btn-remove')) {
+                    const confirm = window.confirm('Bạn có chắc chắn xóa không?');
+                    if (confirm) {
+                        const res = await remove(id);
+                        const data: Product[] = res.data
+                        reRender('app', AdminPage);
+                        if (data) {
+                            console.log('delete thành công');
+                        }
+                    }
+                }
+            });
+        }
+        //filter
+        // const filterTargets = document.querySelectorAll(".target");
+
+        // filterTargets.forEach(function (item) {
+        // item.addEventListener("click", function (e) {
+        //     addFilterClass(e.target)
+        //     const category = e.currentTarget.dataset.id;
+        //     if (category === "all") {
+        //     render(AdminPage);
+        //     } else {
+        //     const menuCategory = menu.filter(function (item) {
+        //         return item.category === category;
+        //     });
+        //     render(menuCategory);
+        //     }
+        // });
+        // });
+    },
+
 }
 
 export default AdminPage
