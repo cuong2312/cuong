@@ -18,7 +18,9 @@ const print = async (component: ComponentBase, id) => {
 }
 
 router.on({
-
+  "/": () => {
+    print(HomePage)
+  }, 
   "/Signin": () => {
     print(Signin)
   },
@@ -30,6 +32,10 @@ router.on({
   },
   "/admin/products/add": () => {
     print(AddProductPage)
-  }
+  },
+  "/admin/products/edit/:id": (data) => {
+    const id=data.data.id
+    print(EditProductPage,id)
+  },
 })
 router.resolve()
