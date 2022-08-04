@@ -27,6 +27,9 @@ router.on({
   },
   "/admin": () => {
     print(AdminPage)
+  },
+  "/admin/products/add": () => {
+    print(AddProductPage)
   }
 })
 router.resolve()
