@@ -1,5 +1,6 @@
 import './style.css'
 import Navigo from 'navigo'
+import AdminPage from './pages/Admin'
 import Signin from './pages/Auth/Signin'
 import Signup from './pages/Auth/Signup'
 const router = new Navigo('/', {linksSelector: "a"})
@@ -23,6 +24,9 @@ router.on({
   },
   "/Signup": () => {
     print(Signup)
+  },
+  "/admin": () => {
+    print(AdminPage)
   }
 })
 router.resolve()
