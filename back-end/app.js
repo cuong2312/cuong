@@ -14,9 +14,13 @@ app.use(cors());
 app.use(express.json());
 app.use("/api", routerProduct);
 app.use("/api", routerAuth);
-app.use("/api", routetCategory);
+app.use("/api", routerCategory);
 
-mongoose.connect('mongodb://localhost:27017/', () => {
-    console.log('successfully');
-}
-);
+mongoose.connect('mongodb://localhost:27017/we17103', () => {
+    console.log('successfully')
+});
+
+app.listen(process.env.PORT, () => {
+    console.log('Kết nối thành công, cổng' + process.env.PORT)
+})
+
