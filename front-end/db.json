@@ -4,9 +4,9 @@
     {
       "id": 1,
       "name": "Xiaomi Redmi Note 11 Pro",
-      "originalPrice": "7.490.000 ",
+      "originalPrice": "7.490.000₫",
       "imageUrl": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658380038/anhhtus/ml56bewffp8uosnb21ex.png",
-      "saleOffPrice": "6.450.000",
+      "saleOffPrice": "6.450.000₫",
       "category": "oppo",
       "feature": "bbbbbbbbbbaaa",
       "description": "ccccccccccaaaa",
@@ -15,13 +15,46 @@
     {
       "id": 2,
       "name": "OPPO Reno6 Z 5G",
-      "originalPrice": "9.490.000 ",
+      "originalPrice": "9.490.000₫",
       "imageUrl": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658334469/anhhtus/xbwkdjuguzukkvikja4t.png",
-      "saleOffPrice": "6.790.000 ",
+      "saleOffPrice": "6.790.000₫",
       "category": "oppo",
       "feature": "cccccccc",
       "description": "bbbbbbbbb",
       "shortDescription": "aaaaaaa"
+    },
+    {
+      "name": "iPhone 11 64GB I Chính hãng VN/A",
+      "originalPrice": "14.990.000 ₫",
+      "imageUrl": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659687880/anhhtus/wryddvtznfgoffq3kwdq.png",
+      "saleOffPrice": "10.790.000 ₫",
+      "category": "iphone",
+      "feature": "Mới, đầy đủ phụ kiện từ nhà sản xuất\nThân máy, cáp USB-C to Lightning, sách HDSD\n1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple : Điện Thoại Vui ASP (Apple Authorized Service Provider)",
+      "description": "● Trung tâm bảo hành của các hãng, quý khách có thể xem chi tiết tại: https://cellphones.com.vn/bao-hanh/apple\n● Trong thời gian đợi bảo hành - sửa chữa, khách hàng sẽ được hỗ trợ miễn phí một điện thoại khác để sử dụng.\n● Khách hàng trả lại máy đã mượn sau khi nhận lại máy của mình.\n* Quy định bảo hành phụ kiện theo kèm máy:\n\n● Vsmart: 6 tháng.\n● Asus: 6 tháng.\n● Nokia: 6 tháng.\nQuyền lợi bảo hành (lỗi từ phía nhà sx): 1 đổi tất cả các lỗi\n\nĐịa chỉ BH: TTBH chính hãng. Click vào để tìm địa chỉ\n\nLưu ý về dữ liệu trên các thiết bị:\n\nQuý khách hàng vui lòng chủ động tự sao lưu dữ liệu. (Hướng dẫn chi tiết với Android | Hướng dẫn chi tiết với iOS)\n\nChúng tôi hoàn toàn ý thức được tầm quan trọng của dữ liệu của khách hàng và luôn cố gắng hết sức để hỗ trợ - hướng dẫn khách hàng trong việc sao lưu dữ liệu. Tuy nhiên, cửa hàng không chịu trách nhiệm về việc mất bất cứ dữ liệu trong mọi trường hợp.",
+      "shortDescription": "",
+      "id": 3
+    },
+    {
+      "name": "iPhone 13 128GB | Chính hãng VN/A",
+      "originalPrice": "24.990.000 ₫",
+      "imageUrl": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659688323/anhhtus/kchcssjybppex0phpcfm.jpg",
+      "saleOffPrice": "19.590.000 ₫",
+      "category": "iphone",
+      "feature": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+      "description": "iPhone 13 128GB, cáp USB-C sang Lightning\n1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple : Điện Thoại Vui ASP (Apple Authorized Service Provider)",
+      "shortDescription": "",
+      "id": 4
+    },
+    {
+      "name": "iPhone 13 Pro Max 128GB | Chính hãng VN/A",
+      "originalPrice": "34.990.000 ₫",
+      "imageUrl": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659688694/anhhtus/vohs4kdra6n3uudvggec.jpg",
+      "saleOffPrice": "27.990.000 ₫",
+      "category": "iphone",
+      "feature": "Máy mới 100% , chính hãng Apple Việt Nam.\nCellphoneS hiện là đại lý bán lẻ uỷ quyền iPhone chính hãng VN/A của Apple Việt Nam",
+      "description": "iPhone 13 Pro Max 128GB, cáp USB-C sang Lightning\n1 ĐỔI 1 trong 30 ngày nếu có lỗi phần cứng nhà sản xuất. Bảo hành 12 tháng tại trung tâm bảo hành chính hãng Apple : Điện Thoại Vui ASP (Apple Authorized Service Provider)",
+      "shortDescription": "",
+      "id": 5
     }
   ]
 }
