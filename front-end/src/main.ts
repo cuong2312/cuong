@@ -1,6 +1,9 @@
 import './style.css'
 import Navigo from 'navigo'
 import AdminPage from './pages/Admin'
+import HomePage from './pages/Home'
+import AddProductPage from './pages/Admin/Product/add'
+import EditProductPage from './pages/Admin/Product/edit'
 import Signin from './pages/Auth/Signin'
 import Signup from './pages/Auth/Signup'
 const router = new Navigo('/', {linksSelector: "a"})

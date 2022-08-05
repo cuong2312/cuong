@@ -1,0 +1,27 @@
+{
+  "users": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "Xiaomi Redmi Note 11 Pro",
+      "originalPrice": "7.490.000 ",
+      "imageUrl": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658380038/anhhtus/ml56bewffp8uosnb21ex.png",
+      "saleOffPrice": "6.450.000",
+      "category": "oppo",
+      "feature": "bbbbbbbbbbaaa",
+      "description": "ccccccccccaaaa",
+      "shortDescription": "aaaaaaaaa"
+    },
+    {
+      "id": 2,
+      "name": "OPPO Reno6 Z 5G",
+      "originalPrice": "9.490.000 ",
+      "imageUrl": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658334469/anhhtus/xbwkdjuguzukkvikja4t.png",
+      "saleOffPrice": "6.790.000 ",
+      "category": "oppo",
+      "feature": "cccccccc",
+      "description": "bbbbbbbbb",
+      "shortDescription": "aaaaaaa"
+    }
+  ]
+}
