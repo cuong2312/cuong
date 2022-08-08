@@ -1,5 +1,12 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "dunghtph18929@fpt.edu.vn",
+      "password": "$2a$10$qVuHaaMwx86ZyfJYYiIg6ux9ueT4emdhx7z7IXeQZ0idoiH1YEO2W",
+      "phone": "(+84) 393011571",
+      "id": 1
+    }
+  ],
   "products": [
     {
       "id": 1,
